@@ -32,7 +32,7 @@ tenoronenotes = \relative c {
   \clef "G_8"
   \partial 4
   r4 | r1 | r | r2 r4 f4( | bes4. c8 d c bes a) |
-  g2 g4 bes | c4. d8 ees( d c bes) | c1 c2. f,4 |
+  g2 g4 bes | c4. d8 ees( d c bes) | c1 c2. f,4 \bar "||"
   \mark \default \break
   bes2 c4 c | d2 c4 bes | bes2( a4) g | f4.( g8) f4 g |
   bes( d) d f | f2 ees4 ees | f( g) f f | f2. d4
@@ -58,7 +58,7 @@ tenortwonotes = \relative c {
   \clef "G_8"
   \partial 4
   r4 | r1 | r | r2 r4 f4( | bes4. c8 d c bes a) |
-  g2 g4 bes | c4. d8 ees( d c bes) | bes1 | a2. f4 |
+  g2 g4 bes | c4. d8 ees( d c bes) | bes1 | a2. f4 \bar "||"
   bes2 c4 c | d2 c4 bes | bes2( a4) g | f4.( g8) f4 ees |
   d( f) bes d | c( f,) g ees' | d( c) bes a | bes2. f4
   bes2 c4 c | d2 c4 bes | bes2 a4 g | f4.( g8) f4 ees |
@@ -83,7 +83,7 @@ barionenotes = \relative c' {
   \clef "G_8"
   \partial 4
   r4 | r2 r4 a | c bes2. ~ | bes1 | bes2 f' |
-  f ees4 d | ees2 ees4 ees | f1 | f2. f,4 |
+  f ees4 d | ees2 ees4 ees | f1 | f2. f,4 \bar "||"
   ees2 a4 a | bes2 a4 bes | bes2( f4) bes | bes2 bes4 bes8( c) |
   f,4( f) bes bes | a( bes) bes c | bes( ees) d c | d2. bes4 |
   bes2 c4 a | bes2 a4 bes | bes2 bes4 bes | bes2 bes4 bes8( c) |
@@ -107,7 +107,7 @@ barionewords = \lyricmode {
 baritwonotes = \relative c {
   \clef "G_8"
   f4 | bes f2. ~ | f1 ~ | f1 | f2 bes |
-  bes bes4 bes | aes2 aes4 aes | f1 | f2. f4 |
+  bes bes4 bes | aes2 aes4 aes | f1 | f2. f4 \bar "||"
   f2 f4 f | f2 a4 bes | g2( f4) ees | f4.( ees8) d4 f8( ees) |
   d4( f) f bes | a( f) g c | bes( c) bes a | bes2. f4 |
   f2 a4 a | bes2 a4 bes | bes2 bes4 bes | bes2 f4 f8( ees) |
@@ -132,7 +132,7 @@ bassonenotes = \relative c {
   \clef bass
   \partial 4
   r4 | r1 | r2. d4 | c bes f' f, | bes2. bes4 |
-  ees,2 ees4 ees | aes2 aes4 aes | f1 | f2. f'4
+  ees,2 ees4 ees | aes2 aes4 aes | f1 | f2. f'4 \bar "||"
   d2 f4 f | bes2 f4 g | ees2. ees4 | bes2 bes4 f |
   d'( c) bes bes | f'( d) ees c | d( ees) f f, | bes2. bes4 |
   bes2 f'4 f | bes2 f4 g | ees2 ees4 ees | bes2 bes4 ees |
@@ -157,7 +157,7 @@ basstwonotes = \relative c {
   \clef bass
   \partial 4
   r4 | r1 | r2. d4 | c bes f' f, | bes2. bes4 |
-  ees,2 ees4 ees | aes2 aes4 aes | f1 | f2. f'4
+  ees,2 ees4 ees | aes2 aes4 aes | f1 | f2. f'4 \bar "||"
   d2 f4 f | bes2 f4 g | ees2. ees4 | bes2 bes4 f |
   d'( c) bes bes | f'( d) ees c | d( ees) f f, | bes2. bes4 |
   bes2 f'4 f | bes2 f4 g | ees2 ees4 ees | bes2 bes4 ees |

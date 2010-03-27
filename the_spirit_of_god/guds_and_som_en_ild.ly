@@ -483,7 +483,7 @@ basstwonotes = \relative c {
     }
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 72 2)
+      tempoWholesPerMinute = #(ly:make-moment 64 2)
     }
   }
 }

@@ -1,7 +1,7 @@
 \version "2.12.3"
 \header {
-  filename = "the_spirit_of_god.ly"
-  title = "The Spirit of God"
+  filename = "guds_and_som_en_ild.ly"
+  title = "Guds Ånd som en Ild"
   subtitle = \markup { \teeny "(Men's Choir)" }
   arranger = "Music: Anonymous"
   meter = "Words: William Wines Phelps (1792-1872)"
@@ -44,7 +44,7 @@ tenoronenotes = \relative c {
   r4 | r1 | r | r2 r4 f4( | bes4. c8 d c bes a) |
   g2 g4 bes | c4. d8 ees( d c bes) | c1 c2. f,4 \bar "||"
   \mark \default \break                                                 % A
-  bes2 c4 c | d2 c4 bes | bes2( a4) g | f4.( g8) f4 g |
+  bes2 c4 c | d2 c4 bes | bes2 a4 g | f4.( g8) f4 g |
   bes( d) d f | f2 ees4 ees | f( g) f f | f2. d4
   d2 f4 f | f2 f4 d | g2 f4 ees | d4.( ees8) d4 c |
   bes( c) d f | f( d) ees ees | d( c) bes a | bes2. d4 |
@@ -78,29 +78,29 @@ tenoronenotes = \relative c {
   a1 ~ | a1 ~ | a1 ~ | a2. \bar "|."
 }
 tenoronewords = \lyricmode {
-  Ah __ san -- na, Ho -- san -- na, Ho __ san -- na!
-  The Spir -- it of God like a fire __ is burn -- ing!
-  The Lat -- ter -- day glo -- ry be -- gins __ to come forth;
-  The vi -- sions and bless -- ings of old are re -- turn -- ing,
-  and an -- gels are com -- ing to vis -- it the earth.
-  We'll sing and we'll shout with the ar -- mies of heav -- en,
-  Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en,
-  Hence -- forth __ and for -- ev -- er, A -- men and a -- men!
-  Ho -- san -- na to __ the __ Lord Ho -- san -- na, Ho __ san -- na!
-  The Lord is ex -- tend -- ing the saints' un -- der -- stand -- ing,
-  re -- stor -- ing their judg -- es and all __ as at first.
-  The knowl -- edge and pow -- er of God __ are ex -- pand -- ing;
-  veil __ o'er the earth __ is be -- gin -- ning to burst.
-  We'll sing shout ah ah glo -- ry in the high -- est be giv -- en
-  Forth __ and __ for -- e -- ver, a -- men and a -- men!
-  We'll call in our sol -- emn as -- sem -- blies in spir -- it,
-  Ah __ of heav -- en a -- broad, How bless -- ed the day
-  when the lamb and li -- on shall lie down ge -- ther
-  out __ an -- y ire, We'll sing shout ah ah
-  san -- na, Ho -- san -- na to God and __ the lamb __ let
-  glo -- ry in the high -- est be giv -- en hence forth for -- ev -- er,
-  a -- men and a -- men! A -- men and a -- men Ho -- san -- na to the Lord! __
+  Ah __ sian -- na, Ho -- sian -- na, Ho __ sian -- na!
+  Guds ånd som en ild nå be -- gyn -- ner å lu -- e,
+  vi sis -- te dags ver -- ket på jor -- den nå ser.
+  Ja, fe -- dre -- nes håp vi be -- gyn -- ner å sku -- e,
+  og det som var ut -- talt, på jor -- den skal skje.
+  Vi syng -- er en lov -- sang med him -- me -- lens hæ -- re:
+  Ho -- sian -- na, Ho -- sian -- na for Gud og hans Sønn!
+  For dem __ i det høy -- e til -- kom -- mer all æ -- re
+  fra nå __ og for e -- vig! A -- men, ja, a -- men.
+  Ho -- sian -- na til __ vår __ Gud Ho -- sian -- na, Ho __ sian -- na!
+  Nå Herr -- en har ut -- rakt sin hånd o -- ver jor -- den
+  og sam -- ler hver hel -- lig tross mørk -- het -- ens makt.
+  Han at -- ter har gjen -- gitt sitt pres -- te -- døms or -- den,
+  det -- te for -- kyn -- ner hans e -- vi -- ge pakt.
+  Vi syng lov ah ah dem høy -- e til -- kom -- mer all æ -- re
+  nå __ og __ for e -- vig! A -- men, ja, a -- men.
+  Vi ik -- ler oss al -- le en ån -- de -- lig styr -- ke
+  Ah __ kan kom -- me her ned, Vel -- sig -- net er dag -- en
+  når lø -- ven lam -- met de van -- dre sam -- men
+  fred og i ro. Vi syng lov ah ah
+  sian -- na, Ho -- sian -- na, for Gud og __ hans Sønn! __
+  For dem __ høy -- e til -- kom -- mer all æ -- re fra nå __ for e -- vig!
+  A -- men, ja, a -- men. A -- men, ja, a -- men. Ho -- sian -- na til vår Gud! __
 }
 tenortwonotes = \relative c {
   \clef "G_8"
@@ -108,7 +108,7 @@ tenortwonotes = \relative c {
   r4 | r1 | r | r2 r4 f4( | bes4. c8 d c bes a) |
   g2 g4 bes | c4. d8 ees( d c bes) | bes1 | a2. f4 \bar "||"
   \mark \default \break                                                 % A
-  bes2 c4 c | d2 c4 bes | bes2( a4) g | f4.( g8) f4 ees |
+  bes2 c4 c | d2 c4 bes | bes2 a4 g | f4.( g8) f4 ees |
   d( f) bes d | c( f,) g ees' | d( c) bes a | bes2. f4
   bes2 c4 c | d2 c4 bes | bes2 a4 g | f4.( g8) f4 ees |
   d( f) bes d | c( bes) bes ees | d( c) bes a | bes2. f4 |
@@ -135,36 +135,37 @@ tenortwonotes = \relative c {
   des2 des | ees des | aes2 aes4 aes | f2. aes4 \bar "||"
   \mark \default \break                                                 % F
   \key d \major a2 fis4 a | a2 fis4 a | d( fis) e d | cis( b) a8( b) cis( a) |
-  d2 cis4 d | b2 cis4 b | d2 e4( d8) e8 | d4 cis8 b cis4 e |
+  d2 cis4 d | b2 cis4 b | d2 e4 d8( e8) | d4 cis8 b cis4 e |
   e( d) d2 | e2 g4 fis | d2 d4 d | e( d) d e |
   fis2. fis4 | d( g) fis e | fis2 e4 g | fis2. fis4 |
   fis1 | e2 g | fis2. a,4 | d cis d fis |
   fis2. r4 | e2( g) | fis1 ~ | fis2. \bar "|."
 }
 tenortwowords = \lyricmode {
-  Ah __ san -- na, Ho -- san -- na, Ho __ san -- na!
-  The Spir -- it of God like a fire __ is burn -- ing!
-  The Lat -- ter -- day glo -- ry be -- gins __ to come forth;
-  The vi -- sions and bless -- ings of old are re -- turn -- ing,
-  and an -- gels are com -- ing to vis -- it the earth.
-  We'll sing and we'll shout with the ar -- mies of heav -- en,
-  Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en,
-  Hence -- forth __ and for -- ev -- er, A -- men and a -- men!
-  Ho -- san -- na to __ the __ Lord Ho -- san -- na, Ho __ san -- na!
-  The Lord is ex -- tend -- ing the saints' un -- der -- stand -- ing,
-  re -- stor -- ing their judg -- es and all __ as at first.
-  The knowl -- edge and pow -- er of God __ are ex -- pand -- ing;
-  veil __ o'er the earth __ is be -- gin -- ning to burst.
-  We'll sing shout ah ah glo -- ry to them in the high -- est be giv -- en
-  forth __ and __ for -- e -- ver, a -- men and a -- men!
-  We'll call in our sol -- emn as -- sem -- blies in spir -- it,
-  Ah __ of heav -- en a -- broad, How bless -- ed the day
-  when the lamb and li -- on shall lie down ge -- ther
-  out __ an -- y ire, We'll sing and we'll shout with the ar -- mies of heav -- en Ho --
-  san -- na, Ho -- san -- na to God and __ the God and the lamb! Let
-  glo -- ry them in the high -- est be giv -- en hence forth for -- ev -- er,
-  a -- men and a -- men! A -- men and a -- men Ho -- san -- na to the Lord! A -- men! __
+  Ah __ sian -- na, Ho -- sian -- na, Ho __ sian -- na!
+  Guds ånd som en ild nå be -- gyn -- ner å lu -- e,
+  vi sis -- te dags ver -- ket på jor -- den nå ser.
+  Ja, fe -- dre -- nes håp vi be -- gyn -- ner å sku -- e,
+  og det som var ut -- talt, på jor -- den skal skje.
+  Vi syng -- er en lov -- sang med him -- me -- lens hæ -- re:
+  Ho -- sian -- na, Ho -- sian -- na for Gud og hans Sønn!
+  For dem __ i det høy -- e til -- kom -- mer all æ -- re
+  fra nå __ og for e -- vig! A -- men, ja, a -- men.
+  Ho -- sian -- na til __ vår __ Gud Ho -- sian -- na, Ho __ sian -- na!
+  Nå Herr -- en har ut -- rakt sin hånd o -- ver jor -- den
+  og sam -- ler hver hel -- lig tross mørk -- het -- ens makt.
+  Han at -- ter har gjen -- gitt sitt pres -- te -- døms or -- den,
+  det -- te for -- kyn -- ner hans e -- vi -- ge pakt.
+  Vi syng lov ah ah dem i det høy -- e til -- kom -- mer all æ -- re
+  nå __ og __ for e -- vig! A -- men, ja, a -- men.
+  Vi ik -- ler oss al -- le en ån -- de -- lig styr -- ke
+  Ah __ kan kom -- me her ned, Vel -- sig -- net er dag -- en
+  når lø -- ven lam -- met de van -- dre sam -- men
+  fred og i ro. Vi syng -- er en lov -- sang med him -- me -- lens hæ -- re:
+  Ho -- sian -- na, Ho -- sian -- na, for Gud og hans Gud og hans Sønn!
+  For dem __  i høy -- e til -- kom -- mer all æ -- re fra nå __ for e -- vig!
+  A -- men, ja, a -- men. A -- men, ja, a -- men.
+  Ho -- sian -- na til vår Gud! A -- men! __
 }
 barionenotes = \relative c' {
   \clef "G_8"
@@ -172,7 +173,7 @@ barionenotes = \relative c' {
   r4 | r2 r4 a | c bes2. ~ | bes1 | bes2 f' |
   f ees4 d | ees2 ees4 ees | f1 | f2. f,4 \bar "||"
   \mark \default \break                                                         % A
-  ees2 a4 a | bes2 a4 bes | bes2( f4) bes | bes2 bes4 bes8( c) |
+  ees2 a4 a | bes2 a4 bes | bes2 f4 bes | bes2 bes4 bes8( c) |
   f,2 bes4 bes | a( bes) bes c | bes( ees) d c | d2. bes4 |
   bes2 c4 a | bes2 a4 bes | bes2 bes4 bes | bes2 bes4 bes8( c) |
   f,2 bes4 bes | bes2 bes4 c | bes( ees) d c | d2. bes4 |
@@ -194,7 +195,7 @@ barionenotes = \relative c' {
   \mark \default \break                                                         % E
   c( b) b b | c2 a4 a | a2 b4 a | g4.( a8) g4 f |
   e( g) c e | d( g,) a f' | e( d) c b \bar "||" \key des \major c2 r4 aes |
-  aes2 c4 c | des2 aes4 aes | aes( ges2) ges4 | aes2 aes4 aes |
+  aes2 c4 c | des2 aes4 aes | aes ges2 ges4 | aes2 aes4 aes |
   aes2 aes | des4( c8 bes) bes2 | aes4( bes) aes ges | aes2. f4 \bar "||"
   \mark \default \break                                                         % F
   \key d \major fis1 | e | g | a2 a |
@@ -205,38 +206,40 @@ barionenotes = \relative c' {
   d2. r4 | c2( e) | d1 ~ | d2. \bar "|."
 }
 barionewords = \lyricmode {
-  Ho -- san -- na, __ Ah Ho -- san -- na, Ho -- san -- na, Ho -- san -- na!
-  The Spir -- it of God like a fire __ is burn -- ing!
-  The Lat -- ter -- day glo -- ry be -- gins __ to come forth;
-  The vi -- sions and bless -- ings of old are re -- turn -- ing,
-  and an -- gels are com -- ing to vis -- it the earth.
-  We'll sing and we'll shout with the ar -- mies of heav -- en,
-  Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en,
-  Hence -- forth and for -- ev -- er, A -- men and a -- men!
-  Ho -- san -- na to Ho -- san -- na, to __ the __ Lord Ho -- san -- na!
-  un -- der -- stand -- ing, re -- stor -- ing their judg -- es
-  and all __ as at first.
-  The knowl -- edge and pow -- er of God __ are ex -- pand -- ing;
-  The veil __ o'er the earth __ is be -- gin -- ning to burst.
-  We'll sing and we'll shout with the ar -- mies of heav -- en
-  let glo -- ry __ high -- est be giv -- en hence -- forth __
-  and __ for -- e -- ver, a -- men and a -- men!
-  We'll call __ in our sol -- emn as -- sem -- blies in spir -- it
-  to spread forth the king -- dom of heav -- en a -- broad.
-  How bless -- ed the day when the lamb and li -- on shall lie down ge -- ther
-  out __ an -- y ire, We'll sing shout ah ah
-  Ho -- san -- na, Ho -- san -- na God and lamb! Let
-  glo -- ry to them in the high -- est be giv -- en hence -- forth __
-  and for -- ev -- er, a -- men and a -- men! A -- men and a -- men
-  Ho -- san -- na to the Lord! A -- men! __
+  Ho -- sian -- na, __ Ah Ho -- sian -- na, Ho -- sian -- na, Ho __ sian -- na!
+  Guds ånd som en ild nå be -- gyn -- ner å lu -- e,
+  vi sis -- te dags ver -- ket på jor -- den nå ser.
+  Ja, fe -- dre -- nes håp vi be -- gyn -- ner å sku -- e,
+  og det som var ut -- talt, på jor -- den skal skje.
+  Vi syng -- er en lov -- sang med him -- me -- lens hæ -- re:
+  Ho -- sian -- na, Ho -- sian -- na for Gud og hans Sønn!
+  For dem __ i det høy -- e til -- kom -- mer all æ -- re
+  fra nå __ og for e -- vig! A -- men, ja, a -- men.
+  Ho -- sian -- na til Ho -- sian -- na til __ vår __ Gud, Ho __ sian -- na! __
+  o -- ver jor -- den
+  og sam -- ler hver hel -- lig tross mørk -- het -- ens makt.
+  Han at -- ter har gjen -- gitt sitt pres -- te -- døms or -- den,
+  og det -- te for -- kyn -- ner hans e -- vi -- ge pakt.
+  Vi syng -- er en lov -- sang med him -- me -- lens hæ -- re for dem
+  til -- kom -- mer all æ -- re fra nå __ og __ for e -- vig!
+  A -- men, ja, a -- men.
+  Vi ik -- ler oss al -- le en ån -- de -- lig styr -- ke
+  så him -- me -- lens ri -- ke kan kom -- me her ned,
+  Vel -- sig -- net er dag -- en
+  når lø -- ven og lam -- met de van -- dre sam -- men
+  fred og i ro. Vi syng lov ah ah
+  Ho -- sian -- na, Ho -- sian -- na, Gud og Sønn!
+  For dem __  i det høy -- e til -- kom -- mer all æ -- re
+  fra nå __ og __ for e -- vig!
+  A -- men, ja, a -- men. A -- men, ja, a -- men.
+  Ho -- sian -- na til vår Gud! A -- men! __
 }
 baritwonotes = \relative c {
   \clef "G_8"
   f4 | bes f2. ~ | f1 ~ | f1 | f2 bes |
   bes bes4 bes | aes2 aes4 aes | f1 | f2. f4 \bar "||"
   \mark \default \break                                                         % A
-  f2 f4 f | f2 a4 bes | g2( f4) ees | f4.( ees8) d4 f8( ees) |
+  f2 f4 f | f2 a4 bes | g2 f4 ees | f4.( ees8) d4 f8( ees) |
   d4( f) f bes | a( f) g c | bes( c) bes a | bes2. f4 |
   f2 a4 a | bes2 a4 bes | bes2 bes4 bes | bes2 f4 f8( ees) |
   d4( f) f bes | bes( a) g g | f( g) f f | f2. f4 |
@@ -258,7 +261,7 @@ baritwonotes = \relative c {
   \mark \default \break                                                         % E
   c( b) b b | c2 a4 a | a2 b4 a | g4.( a8) g4 f |
   e( g) g g | a( g) f f | g2 g4 b \bar "||" \key des \major aes2 r4 aes |
-  aes2 c4 c | des2 aes4 aes | aes( ges2) ges4 | aes2 aes4 aes |
+  aes2 c4 c | des2 aes4 aes | aes ges2 ges4 | aes2 aes4 aes |
   aes2 aes | aes ges | ees4( ges) ges ges | aes2. f4 \bar "||"
   \mark \default \break                                                         % F
   \key d \major fis1 | e | g | a2 a |
@@ -269,31 +272,33 @@ baritwonotes = \relative c {
   a1 ~ | a ~ | a ~ | a2. \bar "|."
 }
 baritwowords = \lyricmode {
-  Ho -- san -- na __ Ah Ho -- san -- na, Ho -- san -- na, Ho -- san -- na!
-  The Spir -- it of God like a fire __ is burn -- ing!
-  The Lat -- ter -- day glo -- ry be -- gins __ to come forth;
-  The vi -- sions and bless -- ings of old are re -- turn -- ing,
-  and an -- gels are com -- ing to vis -- it the earth.
-  We'll sing and we'll shout with the ar -- mies of heav -- en,
-  Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en,
-  Hence -- forth and for -- ev -- er, A -- men and a -- men!
-  Ho -- san -- na the Lord, the Lord, Ho -- san -- na!
-  un -- der -- stand -- ing, re -- stor -- ing their judg -- es
-  and all __ as at first.
-  The knowl -- edge and pow -- er of God __ are ex -- pand -- ing;
-  The veil __ o'er the earth __ is be -- gin -- ning to burst.
-  We'll sing and we'll shout with the ar -- mies of heav -- en
-  let glo -- ry __ high -- est be giv -- en __ hence -- forth __
-  and __ for -- e -- ver, a -- men and a -- men!
-  We'll call __ in our sol -- emn as -- sem -- blies in spir -- it
-  to spread forth the king -- dom of heav -- en a -- broad.
-  How bless -- ed the day when the lamb and li -- on shall lie down ge -- ther
-  out __ an -- y ire, We'll sing shout ah ah
-  Ho -- san -- na, Ho -- san -- na God and lamb! Let
-  glo -- ry high -- est giv -- en hence -- forth __
-  and for -- e -- ver, a -- men and a -- men! A -- men and a -- men!
-  Ho -- san -- na to the Lord! __
+  Ho -- sian -- na, __ Ah Ho -- sian -- na, Ho -- sian -- na, Ho __ sian -- na!
+  Guds ånd som en ild nå be -- gyn -- ner å lu -- e,
+  vi sis -- te dags ver -- ket på jor -- den nå ser.
+  Ja, fe -- dre -- nes håp vi be -- gyn -- ner å sku -- e,
+  og det som var ut -- talt, på jor -- den skal skje.
+  Vi syng -- er en lov -- sang med him -- me -- lens hæ -- re:
+  Ho -- sian -- na, Ho -- sian -- na for Gud og hans Sønn!
+  For dem __ i det høy -- e til -- kom -- mer all æ -- re
+  fra nå __ og for e -- vig! A -- men, ja, a -- men.
+  Ho -- sian -- na vår Gud vår Gud Ho __ sian -- na! __
+  o -- ver jor -- den
+  og sam -- ler hver hel -- lig tross mørk -- het -- ens makt.
+  Han at -- ter har gjen -- gitt sitt pres -- te -- døms or -- den,
+  og det -- te for -- kyn -- ner hans e -- vi -- ge pakt.
+  Vi syng -- er en lov -- sang med him -- me -- lens hæ -- re for dem
+  til -- kom -- mer all æ -- re fra nå __ og __ for e -- vig!
+  A -- men, ja, a -- men.
+  Vi ik -- ler oss al -- le en ån -- de -- lig styr -- ke
+  så him -- me -- lens ri -- ke kan kom -- me her ned,
+  Vel -- sig -- net er dag -- en
+  når lø -- ven og lam -- met de van -- dre sam -- men
+  fred og i ro. Vi syng lov ah ah
+  Ho -- sian -- na, Ho -- sian -- na, Gud og Sønn!
+  For dem til -- kom -- mer æ -- re
+  fra nå __ og __ for e -- vig!
+  A -- men, ja, a -- men. A -- men, ja, a -- men.
+  Ho -- sian -- na til vår Gud! __
 }
 bassonenotes = \relative c {
   \clef bass
@@ -301,7 +306,7 @@ bassonenotes = \relative c {
   r4 | r1 | r2. d4 | c bes f' f, | bes2. bes4 |
   ees,2 ees4 ees | aes2 aes4 aes | f1 | f2. f'4 \bar "||"
   \mark \default \break                                                         % A
-  d2 f4 f | bes2 f4 g | ees2. ees4 | bes2 bes4 f |
+  d2 f4 f | bes2 f4 g | ees2 ees4 ees | bes2 bes4 f |
   d'( c) bes bes | f'( d) ees c | d( ees) f f, | bes2. bes4 |
   bes2 f'4 f | bes2 f4 g | ees2 ees4 ees | bes2 bes4 ees |
   d( c) bes a | g( f) ees g | f2 f4 f | bes2. bes4 |
@@ -335,29 +340,32 @@ bassonenotes = \relative c {
   b2. r4 | a2( c) | d,1 ~ | d2. \bar "|."
 }
 basswords = \lyricmode {
-  Ho -- san -- na to the Lord Ho -- san -- na, Ho -- san -- na, Ho -- san -- na!
-  The Spir -- it of God like a fire __ is burn -- ing!
-  The Lat -- ter -- day glo -- ry be -- gins __ to come forth;
-  The vi -- sions and bless -- ings of old are re -- turn -- ing,
-  and an -- gels are com -- ing to vis -- it the earth.
-  We'll sing and we'll shout with the ar -- mies of heav -- en,
-  Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en, 
-  Hence -- forth and for -- ev -- er, A -- men and a -- men! 
-  Ho -- san -- na the Lord, Ho -- san -- na Ho -- san -- na!
-  The Lord is ex -- tend -- ing the saints' un -- der -- stand -- ing,
-  The knowl -- edge and pow -- er God are ex -- pand -- ing;
-  The veil __ o'er the earth -- is be -- gin -- ning to burst.
-  We'll sing shout ah ah glo -- ry __ high -- est be giv -- en
-  forth and for -- e -- ver, a -- men and a -- men!
-  We'll call __ in our sol -- emn as -- sem -- blies in spir -- it,
-  to spread forth the king -- dom heav -- en a -- broad,
-  How bless -- ed the day when the lamb and the li -- on shall
-  lie __ down to -- ge -- ther with -- out __ an -- y ire,
-  We'll sing shout ah ah Ho -- san -- na, ho -- san -- na to God __
-  and the lamb! Let glo -- ry high -- est giv -- en hence -- forth
-  and for -- e -- ver, a -- men and a -- men! A -- men and a -- men!
-  Ho -- san -- na to the Lord! A -- men! __
+  Ho -- sian -- na til vår Gud Ho -- sian -- na, Ho -- sian -- na, Ho -- sian -- na!
+  Guds ånd som en ild nå be -- gyn -- ner å lu -- e,
+  vi sis -- te dags ver -- ket på jor -- den nå ser.
+  Ja, fe -- dre -- nes håp vi be -- gyn -- ner å sku -- e,
+  og det som var ut -- talt, på jor -- den skal skje.
+  Vi syng -- er en lov -- sang med him -- me -- lens hæ -- re:
+  Ho -- sian -- na, Ho -- sian -- na for Gud og hans Sønn!
+  For dem __ i det høy -- e til -- kom -- mer all æ -- re
+  fra nå __ og for e -- vig! A -- men, ja, a -- men.
+  Ho -- sian -- na vår Gud Ho __ sian -- na! Ho __ sian -- na!
+  Nå Herr -- en har ut -- rakt sin hånd o -- ver jor -- den
+  Han at -- ter har gjen -- gitt pres -- te -- døms or -- den,
+  og det -- te for -- kyn -- ner hans e -- vi -- ge pakt.
+  Vi syng lov ah ah dem
+  til -- kom -- mer all æ -- re nå __ og __ for e -- vig!
+  A -- men, ja, a -- men.
+  Vi ik -- ler oss al -- le en ån -- de -- lig styr -- ke
+  så him -- me -- lens ri -- ke kom -- me her ned,
+  Vel -- sig -- net er dag -- en
+  når lø -- ven og lam -- met de van -- dre skal sam -- men
+  i fred og i ro. Vi syng lov ah ah
+  Ho -- sian -- na, Ho -- sian -- na, for Gud og hans Sønn!
+  For dem til -- kom -- mer æ -- re
+  fra nå __ og __ for e -- vig!
+  A -- men, ja, a -- men. A -- men, ja, a -- men.
+  Ho -- sian -- na til vår Gud! A -- men! __
 }
 basstwonotes = \relative c {
   \clef bass
@@ -365,7 +373,7 @@ basstwonotes = \relative c {
   r4 | r1 | r2. d4 | c bes f' f, | bes2. bes4 |
   ees,2 ees4 ees | aes2 aes4 aes | f1 | f2. f'4 \bar "||"
   \mark \default \break                                                         % A
-  d2 f4 f | bes2 f4 g | ees2. ees4 | bes2 bes4 f |
+  d2 f4 f | bes2 f4 g | ees2 ees4 ees | bes2 bes4 f |
   d'( c) bes bes | f'( d) ees c | d( ees) f f, | bes2. bes4 |
   bes2 f'4 f | bes2 f4 g | ees2 ees4 ees | bes2 bes4 ees |
   d( c) bes a | g( f) ees g | f2 f4 f | bes2. bes4 |

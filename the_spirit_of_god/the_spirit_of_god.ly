@@ -5,7 +5,7 @@
   subtitle = \markup { \teeny "(Men's Choir)" }
   arranger = "Music: Anonymous"
   meter = "Words: William Wines Phelps (1792-1872)"
-  copyright = "© 2003 Michael Bearden"
+%  copyright = "© 2003 Michael Bearden"
   enteredby = "Carl Youngblood"
   lastupdated = "25 March 2010"
   style = "Hymn"
@@ -20,8 +20,18 @@
   } % This sets the statement at the bottom of last page.
 }
 \paper {
-  #(set-paper-size "a4")
-  top-margin = 0.7\cm
+  indent = 0.0\pt
+  page-limit-inter-system-space = ##t
+  page-limit-inter-system-space-factor = 1.1
+  top-margin = 1\cm
+  bottom-margin = 1\cm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  first-page-number = #1
+  between-system-space = 3.0\cm
+  between-system-padding = #1
+  ragged-bottom=##t
+  ragged-last-bottom=##t
 }
 
 global = {
@@ -75,7 +85,7 @@ tenoronewords = \lyricmode {
   and an -- gels are com -- ing to vis -- it the earth.
   We'll sing and we'll shout with the ar -- mies of heav -- en,
   Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en, __
+  Let glo -- ry to them in the high -- est be giv -- en,
   Hence -- forth __ and for -- ev -- er, A -- men and a -- men!
   Ho -- san -- na to __ the __ Lord Ho -- san -- na, Ho __ san -- na!
   The Lord is ex -- tend -- ing the saints' un -- der -- stand -- ing,
@@ -139,7 +149,7 @@ tenortwowords = \lyricmode {
   and an -- gels are com -- ing to vis -- it the earth.
   We'll sing and we'll shout with the ar -- mies of heav -- en,
   Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en, __
+  Let glo -- ry to them in the high -- est be giv -- en,
   Hence -- forth __ and for -- ev -- er, A -- men and a -- men!
   Ho -- san -- na to __ the __ Lord Ho -- san -- na, Ho __ san -- na!
   The Lord is ex -- tend -- ing the saints' un -- der -- stand -- ing,
@@ -152,7 +162,7 @@ tenortwowords = \lyricmode {
   Ah __ of heav -- en a -- broad, How bless -- ed the day
   when the lamb and li -- on shall lie down ge -- ther
   out __ an -- y ire, We'll sing and we'll shout with the ar -- mies of heav -- en Ho --
-  san -- na, Ho -- san -- na to God and __ the God and the lamb let
+  san -- na, Ho -- san -- na to God and __ the God and the lamb! Let
   glo -- ry them in the high -- est be giv -- en hence forth for -- ev -- er,
   a -- men and a -- men! A -- men and a -- men Ho -- san -- na to the Lord! A -- men! __
 }
@@ -179,9 +189,8 @@ barionenotes = \relative c' {
   c2 b4 f | e( g) g g | g( e) f a | g( f) e d | e2 r4 g \bar "||"
   \mark \default \break                                                         % D
   g2 e4 g | g2 e4 g | c4( e) d c | b2 d4 d |
-  c1 | c | c2 d4 c |
-  b( a) gis8( a) b( gis) | a4.( g8) a( b) c( d) | e4( c) a d |
-  c2 b4 b | c2. g4 \bar "||"
+  c1 | c | c2 d4 c | b( a) gis8( a) b( gis) |
+  a4.( g8) a( b) c( d) | e4( c) a d | c2 b4 b | c2. g4 \bar "||"
   \mark \default \break                                                         % E
   c( b) b b | c2 a4 a | a2 b4 a | g4.( a8) g4 f |
   e( g) c e | d( g,) a f' | e( d) c b \bar "||" \key des \major c2 r4 aes |
@@ -203,21 +212,21 @@ barionewords = \lyricmode {
   and an -- gels are com -- ing to vis -- it the earth.
   We'll sing and we'll shout with the ar -- mies of heav -- en,
   Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en, __
-  Hence -- forth __ and for -- ev -- er, A -- men and a -- men!
+  Let glo -- ry to them in the high -- est be giv -- en,
+  Hence -- forth and for -- ev -- er, A -- men and a -- men!
   Ho -- san -- na to Ho -- san -- na, to __ the __ Lord Ho -- san -- na!
   un -- der -- stand -- ing, re -- stor -- ing their judg -- es
   and all __ as at first.
   The knowl -- edge and pow -- er of God __ are ex -- pand -- ing;
   The veil __ o'er the earth __ is be -- gin -- ning to burst.
   We'll sing and we'll shout with the ar -- mies of heav -- en
-  let glo -- ry __ high -- est be giv -- en __ hence -- forth __
+  let glo -- ry __ high -- est be giv -- en hence -- forth __
   and __ for -- e -- ver, a -- men and a -- men!
-  We'll call in our sol -- emn as -- sem -- blies in spir -- it
+  We'll call __ in our sol -- emn as -- sem -- blies in spir -- it
   to spread forth the king -- dom of heav -- en a -- broad.
   How bless -- ed the day when the lamb and li -- on shall lie down ge -- ther
   out __ an -- y ire, We'll sing shout ah ah
-  Ho -- san -- na, Ho -- san -- na God and lamb let
+  Ho -- san -- na, Ho -- san -- na God and lamb! Let
   glo -- ry to them in the high -- est be giv -- en hence -- forth __
   and for -- ev -- er, a -- men and a -- men! A -- men and a -- men
   Ho -- san -- na to the Lord! A -- men! __
@@ -244,9 +253,8 @@ baritwonotes = \relative c {
   c2 b4 f | e( d) g g | g( e) c d | e( d) c d | e2 f \bar "||"
   \mark \default \break                                                         % D
   g2 e4 g | g2 e4 g | c4( e) d c | b2 d4 d |
-  g,1 | a | a2 c4 c |
-  a2 gis8( a) b( gis) | f4.( g8) g( b) g( d') | e4( c) a a |
-  g2 g4 g | g2. g4 \bar "||"
+  g,1 | a | a2 c4 c | a2 gis8( a) b( gis) |
+  f4.( g8) g( b) g( d') | e4( c) a a | g2 g4 g | g2. g4 \bar "||"
   \mark \default \break                                                         % E
   c( b) b b | c2 a4 a | a2 b4 a | g4.( a8) g4 f |
   e( g) g g | a( g) f f | g2 g4 b \bar "||" \key des \major aes2 r4 aes |
@@ -268,8 +276,8 @@ baritwowords = \lyricmode {
   and an -- gels are com -- ing to vis -- it the earth.
   We'll sing and we'll shout with the ar -- mies of heav -- en,
   Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en, __
-  Hence -- forth __ and for -- ev -- er, A -- men and a -- men!
+  Let glo -- ry to them in the high -- est be giv -- en,
+  Hence -- forth and for -- ev -- er, A -- men and a -- men!
   Ho -- san -- na the Lord, the Lord, Ho -- san -- na!
   un -- der -- stand -- ing, re -- stor -- ing their judg -- es
   and all __ as at first.
@@ -278,13 +286,13 @@ baritwowords = \lyricmode {
   We'll sing and we'll shout with the ar -- mies of heav -- en
   let glo -- ry __ high -- est be giv -- en __ hence -- forth __
   and __ for -- e -- ver, a -- men and a -- men!
-  We'll call in our sol -- emn as -- sem -- blies in spir -- it
+  We'll call __ in our sol -- emn as -- sem -- blies in spir -- it
   to spread forth the king -- dom of heav -- en a -- broad.
   How bless -- ed the day when the lamb and li -- on shall lie down ge -- ther
   out __ an -- y ire, We'll sing shout ah ah
-  Ho -- san -- na, Ho -- san -- na God and lamb let
+  Ho -- san -- na, Ho -- san -- na God and lamb! Let
   glo -- ry high -- est giv -- en hence -- forth __
-  and for -- ev -- er, a -- men and a -- men! A -- men and a -- men
+  and for -- e -- ver, a -- men and a -- men! A -- men and a -- men!
   Ho -- san -- na to the Lord! __
 }
 bassonenotes = \relative c {
@@ -292,6 +300,7 @@ bassonenotes = \relative c {
   \partial 4
   r4 | r1 | r2. d4 | c bes f' f, | bes2. bes4 |
   ees,2 ees4 ees | aes2 aes4 aes | f1 | f2. f'4 \bar "||"
+  \mark \default \break                                                         % A
   d2 f4 f | bes2 f4 g | ees2. ees4 | bes2 bes4 f |
   d'( c) bes bes | f'( d) ees c | d( ees) f f, | bes2. bes4 |
   bes2 f'4 f | bes2 f4 g | ees2 ees4 ees | bes2 bes4 ees |
@@ -299,7 +308,31 @@ bassonenotes = \relative c {
   bes2 bes4 bes | bes2 bes4 bes | bes2 c4 c | f( ees) d c |
   bes( d) c bes | ees2 c4 bes | g( a) bes4. f'8 | f2. f4 |
   bes,4( d) f bes | ees,2 c4 bes | f'2 f4 c | f( ees) d c |
-  bes2 bes4 bes | ees( c) d ees | f( f,) f f | bes2. f4 |
+  bes2 bes4 bes | ees( c) d ees | f( f,) f f | bes2. f'4 |
+  \mark \default \break                                                         % B
+  bes, bes2 bes4 | ees2. ees4 | aes,4. aes8 aes2 | g1 | g2. f'4 \bar "||"
+  \mark \default \break \key c \major                                           % C
+  e2 g4 g | c2 g4 a | f2 f4 f | c2 d |
+  r1 | r | r | r2. f4 |
+  e2 d4 d | a2 g | f d4 a' | g'2 g4 f |
+  e( d) c c | b( g) f f | g2 g4 g | c2 f \bar "||"
+  \mark \default \break                                                         % D
+  e1 | d | f | g |
+  c, | c | c2 d4 c | b2 e |
+  f e4 d | c2 f,4 f | g2 g4 g | c2. g'4 \bar "||"
+  \mark \default \break                                                         % E
+  c( b) b b | a( g) f e | d( e8 f) g4 g | c,2 c4 b | 
+  a2 g4 g | f2 f | g g4 g \bar "||" \key des \major aes2 r4 aes |
+  des2 ees4 ees | f2 ees4 des | des2 c4 bes | aes4.( bes8) aes4 ges |
+  f( aes) des f | ees( aes,) bes ges' | f( ees) des c | des2. aes4 \bar "||"
+  \mark \default \break                                                         % F
+  \key d \major
+  a1 | a | b | cis2 cis |
+  d2 d4 d | g,2 g4 fis | e( fis) g b | a2. a4 |
+  d1 | d | b'2 b | a4( g) fis e |
+  d2 d4 d | g( e) fis g | a( a,) a a | d2. d4 |
+  g1 | g2 e | d2. a'4 | g fis e a |
+  b2. r4 | a2( c) | d,1 ~ | d2. \bar "|."
 }
 basswords = \lyricmode {
   Ho -- san -- na to the Lord Ho -- san -- na, Ho -- san -- na, Ho -- san -- na!
@@ -309,14 +342,29 @@ basswords = \lyricmode {
   and an -- gels are com -- ing to vis -- it the earth.
   We'll sing and we'll shout with the ar -- mies of heav -- en,
   Ho -- san -- na, Ho -- san -- na to God and the Lamb!
-  Let glo -- ry to them in the high -- est be giv -- en, __
-  Hence -- forth __ and for -- ev -- er, A -- men and a -- men!
+  Let glo -- ry to them in the high -- est be giv -- en, 
+  Hence -- forth and for -- ev -- er, A -- men and a -- men! 
+  Ho -- san -- na the Lord, Ho -- san -- na Ho -- san -- na!
+  The Lord is ex -- tend -- ing the saints' un -- der -- stand -- ing,
+  The knowl -- edge and pow -- er God are ex -- pand -- ing;
+  The veil __ o'er the earth -- is be -- gin -- ning to burst.
+  We'll sing shout ah ah glo -- ry __ high -- est be giv -- en
+  forth and for -- e -- ver, a -- men and a -- men!
+  We'll call __ in our sol -- emn as -- sem -- blies in spir -- it,
+  to spread forth the king -- dom heav -- en a -- broad,
+  How bless -- ed the day when the lamb and the li -- on shall
+  lie __ down to -- ge -- ther with -- out __ an -- y ire,
+  We'll sing shout ah ah Ho -- san -- na, ho -- san -- na to God __
+  and the lamb! Let glo -- ry high -- est giv -- en hence -- forth
+  and for -- e -- ver, a -- men and a -- men! A -- men and a -- men!
+  Ho -- san -- na to the Lord! A -- men! __
 }
 basstwonotes = \relative c {
   \clef bass
   \partial 4
   r4 | r1 | r2. d4 | c bes f' f, | bes2. bes4 |
   ees,2 ees4 ees | aes2 aes4 aes | f1 | f2. f'4 \bar "||"
+  \mark \default \break                                                         % A
   d2 f4 f | bes2 f4 g | ees2. ees4 | bes2 bes4 f |
   d'( c) bes bes | f'( d) ees c | d( ees) f f, | bes2. bes4 |
   bes2 f'4 f | bes2 f4 g | ees2 ees4 ees | bes2 bes4 ees |
@@ -324,13 +372,38 @@ basstwonotes = \relative c {
   bes2 bes4 bes | bes2 bes4 bes | bes2 c4 c | f( ees) d c |
   bes( d) c bes | ees,2 c'4 bes | g( a) bes4. f'8 | f2. f4 |
   bes,4( d) f bes | ees,2 c4 bes | f'2 f4 c | f( ees) d c |
-  bes2 bes4 bes | ees( c) d ees | f( f,) f f | bes2. f4 |
+  bes2 bes4 bes | ees( c) d ees | f( f,) f f | bes2. f'4 |
+  \mark \default \break                                                         % B
+  bes, bes2 bes4 | ees,2. ees4 | aes4. aes8 aes2 | g1 | g2. f'4 \bar "||"
+  \mark \default \break \key c \major                                           % C
+  e2 g4 g | c2 g4 a | f2 f4 f | c2 d |
+  r1 | r | r | r2. f4 |
+  e2 d4 d | a2 g | f d4 a' | g2 g4 g |
+  e'( d) c c | b( g) f f | g2 g4 g | c2 a \bar "||"
+  \mark \default \break                                                         % D
+  g1 | g | a | b |
+  c | c | c2 d4 c | b2 e |
+  f e4 d | c2 f,4 f | g2 g4 g | c2. g'4 \bar "||"
+  \mark \default \break                                                         % E
+  c( b) b b | a( g) f e | d( e8 f) g4 g | c,2 c4 b | 
+  a2 g4 g | f2 f | g g4 g \bar "||" \key des \major aes2 r4 aes |
+  des2 ees4 ees | f2 ees4 des | des2 c4 bes | aes4.( bes8) aes4 ges |
+  f( aes) des f | ees( aes,) bes ges' | f( ees) des c | des2. aes4 \bar "||"
+  \mark \default \break                                                         % F
+  \key d \major
+  a1 | a | b | cis2 cis |
+  d2 d4 d | g,2 g4 fis | e( fis) g b | a2. a4 |
+  a1 | a | d2 e | a4( g) fis e |
+  d2 d4 d | g( e) fis g | a( a,) a a | d2. d4 |
+  g1 | g2 e | d2. a'4 | g fis e d |
+  g,2. r4 | f1 | d1 ~ | d2. \bar "|."
 }
 
 \score{
   \context ChoirStaff
   <<
     \context Staff = tenorone <<
+      \override Staff.VerticalAxisGroup #'minimum-Y-extent = #'(-4.3 . 4.3)
       \context Voice = tenone {
         \set midiInstrument = #"Choir Aahs"
         << \global \tenoronenotes >>
@@ -338,6 +411,7 @@ basstwonotes = \relative c {
       \lyricsto "tenone" \new Lyrics \tenoronewords
     >>
     \context Staff = tenortwo <<
+    \override Staff.VerticalAxisGroup #'minimum-Y-extent = #'(-4.3 . 4.3)
       \context Voice = tentwo {
         \set midiInstrument = #"Choir Aahs"
         << \global \tenortwonotes >>
@@ -345,6 +419,7 @@ basstwonotes = \relative c {
       \lyricsto "tentwo" \new Lyrics \tenortwowords
     >>
     \context Staff = barione <<
+    \override Staff.VerticalAxisGroup #'minimum-Y-extent = #'(-4.3 . 4.3)
       \context Voice = barone {
         \set midiInstrument = #"Choir Aahs"
         << \global \barionenotes >>
@@ -352,6 +427,7 @@ basstwonotes = \relative c {
       \lyricsto "barone" \new Lyrics \barionewords
     >>
     \context Staff = baritwo <<
+    \override Staff.VerticalAxisGroup #'minimum-Y-extent = #'(-4.3 . 4.3)
       \context Voice = bartwo {
         \set midiInstrument = #"Choir Aahs"
         << \global \baritwonotes >>
@@ -359,6 +435,7 @@ basstwonotes = \relative c {
       \lyricsto "bartwo" \new Lyrics \baritwowords
     >>
     \context Staff = bassone <<
+    \override Staff.VerticalAxisGroup #'minimum-Y-extent = #'(-4.3 . 4.3)
       \context Voice = basone {
         \set midiInstrument = #"Choir Aahs"
         << \global \bassonenotes >>
@@ -366,6 +443,7 @@ basstwonotes = \relative c {
       \lyricsto "basone" \new Lyrics \basswords
     >>
     \context Staff = basstwo <<
+    \override Staff.VerticalAxisGroup #'minimum-Y-extent = #'(-4.3 . 4.3)
       \context Voice = bastwo {
         \set midiInstrument = #"Choir Aahs"
         << \global \basstwonotes >>
@@ -375,21 +453,14 @@ basstwonotes = \relative c {
   >>
 
   \layout {
-    % The lines below help layout the page in a nice way. Don't delete or alter.
-    indent = 0.0\pt
-    first-page-number = #1
-    between-system-padding = #0.2
-    between-system-space = #0.2
-    ragged-last-bottom = ##f
-    ragged-bottom = ##f
     \context {
       \Lyrics
       
       % This helps layout. Don't change.
-      \override VerticalAxisGroup #'minimum-Y-extent = #'(-1.0 . 1.0)
+      \override VerticalAxisGroup #'minimum-Y-extent = #'(1.0 . 1.0)
       
       % Change the number to change the font size.
-      \override LyricText #'font-size = #-.575
+      \override LyricText #'font-size = #-1.0
     }
   }
 

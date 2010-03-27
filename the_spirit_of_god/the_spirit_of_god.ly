@@ -226,6 +226,7 @@ baritwonotes = \relative c {
   \clef "G_8"
   f4 | bes f2. ~ | f1 ~ | f1 | f2 bes |
   bes bes4 bes | aes2 aes4 aes | f1 | f2. f4 \bar "||"
+  \mark \default \break                                                         % A
   f2 f4 f | f2 a4 bes | g2( f4) ees | f4.( ees8) d4 f8( ees) |
   d4( f) f bes | a( f) g c | bes( c) bes a | bes2. f4 |
   f2 a4 a | bes2 a4 bes | bes2 bes4 bes | bes2 f4 f8( ees) |
@@ -234,6 +235,30 @@ baritwonotes = \relative c {
   f( bes) a bes | g2 a4 bes | bes( a) bes c | a2. a4 |
   bes2 a4 g | g2 a4 bes | f2 f4 e | f2 f4 ees? |
   f2 f4 d | ees2 f4 ees | f2 f4 f | f2. f4 |
+  \mark \default \break                                                         % B
+  f f2 f4 | g2. g4 | aes2 aes | a!1 | b \bar "||"
+  \mark \default \break \key c \major                                           % C
+  r | r | r2 f8( g) a( b) |
+  c2 b4 b | c( d) e g | g( e) f f | g( a) g g | 
+  g2. f,4 | g2 g4 g | e( a) g g | f( a) f8( g) a( b) |
+  c2 b4 f | e( d) g g | g( e) c d | e( d) c d | e2 f \bar "||"
+  \mark \default \break                                                         % D
+  g2 e4 g | g2 e4 g | c4( e) d c | b2 d4 d |
+  g,1 | a | a2 c4 c |
+  a2 gis8( a) b( gis) | f4.( g8) g( b) g( d') | e4( c) a a |
+  g2 g4 g | g2. g4 \bar "||"
+  \mark \default \break                                                         % E
+  c( b) b b | c2 a4 a | a2 b4 a | g4.( a8) g4 f |
+  e( g) g g | a( g) f f | g2 g4 b \bar "||" \key des \major aes2 r4 aes |
+  aes2 c4 c | des2 aes4 aes | aes( ges2) ges4 | aes2 aes4 aes |
+  aes2 aes | aes ges | ees4( ges) ges ges | aes2. f4 \bar "||"
+  \mark \default \break                                                         % F
+  \key d \major fis1 | e | g | a2 a |
+  fis2 a4 a | a( g) g2 | b b | a2. a4 |
+  a1 | b | b2 b | a4( g) a g |
+  a2 a4 a | b2 a4 b | a2 a4 a | a2. a4 |
+  b1 | b2 b | a2. a4 | a a g a |
+  a1 ~ | a ~ | a ~ | a2. \bar "|."
 }
 baritwowords = \lyricmode {
   Ho -- san -- na __ Ah Ho -- san -- na, Ho -- san -- na, Ho -- san -- na!
@@ -245,6 +270,22 @@ baritwowords = \lyricmode {
   Ho -- san -- na, Ho -- san -- na to God and the Lamb!
   Let glo -- ry to them in the high -- est be giv -- en, __
   Hence -- forth __ and for -- ev -- er, A -- men and a -- men!
+  Ho -- san -- na the Lord, the Lord, Ho -- san -- na!
+  un -- der -- stand -- ing, re -- stor -- ing their judg -- es
+  and all __ as at first.
+  The knowl -- edge and pow -- er of God __ are ex -- pand -- ing;
+  The veil __ o'er the earth __ is be -- gin -- ning to burst.
+  We'll sing and we'll shout with the ar -- mies of heav -- en
+  let glo -- ry __ high -- est be giv -- en __ hence -- forth __
+  and __ for -- e -- ver, a -- men and a -- men!
+  We'll call in our sol -- emn as -- sem -- blies in spir -- it
+  to spread forth the king -- dom of heav -- en a -- broad.
+  How bless -- ed the day when the lamb and li -- on shall lie down ge -- ther
+  out __ an -- y ire, We'll sing shout ah ah
+  Ho -- san -- na, Ho -- san -- na God and lamb let
+  glo -- ry high -- est giv -- en hence -- forth __
+  and for -- ev -- er, a -- men and a -- men! A -- men and a -- men
+  Ho -- san -- na to the Lord! __
 }
 bassonenotes = \relative c {
   \clef bass

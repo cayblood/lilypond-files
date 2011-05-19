@@ -29,7 +29,14 @@ melody = \relative c'' {
   \time 2/4 cis4 d |
   \time 4/4 b2.~ b8 a |
   a1 | \time 2/4 r2 |
-  \time 4/4
+  \time 4/4 r1 |
+  \time 2/4 r2 |
+  \bar "||" \key c \major \time 6/4 r1. | r1. |
+  \time 4/4 r1 |
+  \time 2/4 r2 |
+  \time 4/4 r1 |
+  r2 r4 r8 e'16 f |
+  g4 c, d2 |
 }
 
 text = \lyricmode {
@@ -49,6 +56,7 @@ text = \lyricmode {
   will be worth my __ while.
   I would go most an -- y -- where
   to feel like I __ be -- long.
+  I am on my way.
 }
 
 upper = \relative c'' {
@@ -98,10 +106,36 @@ upper = \relative c'' {
     }
   >> |
   <fis d a>4 <e b gis> cis16~ <e cis>~ <a e cis>8~ <a e cis> b |              % go most anywhere to
-  \time 2/4 << { cis4 d } \\ { fis cis } >>                                   % feel like
+  \time 2/4 << { cis4 d } \\ { <fis, cis>2 } >> |                             % feel like
   \time 4/4                                                                   % I be
-  << { b2.~ b8 a } \\
-     { <a e b>4_\markup { \italic poco rall. } <a e b>4 <gis e b>2\> \! } >>
+  << { b2.~ b8 a | s1 } \\
+     { <a e b>4_\markup { \italic "poco rall." } <a e b>4 <gis e b>2\> |
+       \slurUp
+       a'16(\!                                                                % long
+       ^\markup { \italic lightly }
+       _\markup { \italic "a tempo" }
+       \mp
+       a, e' a,   a' a, e' a,   a' a, e' a,   a' a, e' a,) \slurNeutral } >> |
+  \time 2/4
+  a'( a, e' a,   a' a, e' a,) |
+  \time 4/4
+  a'( a, e' a,   a' a, e' a,   a' a, e' a,  a' a, e' a,) |
+  \time 2/4
+  a'(\> a, e' a,\!)   r8 c,16\mf g' |
+  \bar "||" \time 6/4 \key c \major
+  << { <a f>4 <g d b> <e c>2 r4 r8 c16 g' } \\
+     { c,8( a) b( g) r g( c d f e d c) } >> |
+  << { <a' f>4 <g d b> } \\ { c,8( a) b( g) } >>
+  << { r g'( c d f e d c) } \\ { <e, c>2 r4 r8 c16 g' } >> |
+  \time 4/4
+  << { <f a>4\< <gis b> <c a e c>8 a <c a e> d | \time 2/4 <e c a e>4.\!\f <f f,>8 } \\
+     { c,4 e8( d) s2 | \time 2/4 s2 } >> |
+  \time 4/4
+  << { r8 g'( c b) s2 } \\
+     { <d, c g d>2 <b' g d b>8( g d g,) } >> |
+  << { c16( a) b-. c-. d4-> e16( c) d-. e-. f8-> e16 f } \\
+     { <f, c>4-> <g d>-> <c g>-> <b g f>-> } >> |                             % I am
+  <g' c, g>4 <c, g c,> << { d2 } \\ { <a d,>4 <a d,> } >> |                   % on my way
 }
 
 lower = \relative c {
@@ -138,7 +172,26 @@ lower = \relative c {
   <e, e,>2 <e e,>4 <d d,>4 |                                             % if I can be strong. I know
   <cis cis,>2 <d d,> |                                                   % ev'ry mile will be
   \time 2/4 fis,2 |                                                      % worth my
-  b,1                                                                    % while. I would    
+  b,1 |                                                                  % while. I would
+  <d' d,>4 <e e,> a,8 gis fis e |                                        % go most anywhere to
+  \time 2/4 << { r8 a( fis' a,) } \\ { d,2 } >> |                        % feel like
+  \time 4/4 e1 |                                                         % I be-
+  << { r4 <gis'' e>( <fis d>2~ | \time 2/4 <fis d>) } \\                     % long
+     { <a,, a,>1~ | \time 2/4 <a a,>2 } >> |
+  \time 4/4
+  << { r4 <e' gis>( <d fis>2~ | \time 2/4 <d fis>2) } \\
+     { a1 | \time 2/4 a2 } >> |
+  \bar "||" \key c \major \time 6/4
+  <c f,>4 <d g,> <c c,>1 |
+  <c f,>4 <d g,> <c c,>1 |
+  \time 4/4
+  f4 e f, a' |
+  \time 2/4
+  << { r8 c,( a' c,) } \\ { f,2 } >> |
+  \time 4/4
+  << { r8 d'( a' d,) r d( b' d,) } \\ { g,2 g } >> |
+  <a a,>4-> <b b,>-> <f f,>-> <g g,>-> |                                 % I am
+  <e e,>4. <e e,>8 <f f,>4. <f f,>8 |                                    % on my way.
 }
 
 dynamics = {

@@ -204,12 +204,12 @@ pedal = {
 
 \score {
   <<
-    \new Voice = "mel" { \autoBeamOff \melody }
+    \new Voice = "mel" { \autoBeamOff \transpose a g \melody }
     \new Lyrics \lyricsto mel \text
     \new PianoStaff <<
-      \new Staff = "upper" \upper
+      \transpose a g \new Staff = "upper" \upper
       \new Dynamics = "Dynamics_pf" \dynamics
-      \new Staff = "lower" \lower
+      \transpose a g \new Staff = "lower" \lower
       \new Dynamics = "pedal" \pedal
     >>
   >>

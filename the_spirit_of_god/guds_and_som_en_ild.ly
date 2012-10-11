@@ -1,7 +1,7 @@
 \version "2.12.3"
 \header {
   filename = "guds_and_som_en_ild.ly"
-  title = "Guds Ånd som en Ild"
+  title = "Guds ånd som en ild"
   subtitle = \markup { \teeny "(Men's Choir)" }
   arranger = "Music: Anonymous"
   meter = "Words: William Wines Phelps (1792-1872)"

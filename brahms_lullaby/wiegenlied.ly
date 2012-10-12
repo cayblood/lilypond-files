@@ -33,11 +33,14 @@
 }
 
 clarinetOne = \relative c'' {
+  \set midiInstrument = #"clarinet"
+  \voiceOne
+  \tempo \markup { \italic Gently } 2 = 60
   \clef treble
   \key f \major
   \time 3/2
   
-  r1^"Gently" a4\mp a | \repeat volta 2 { c2~ c4 a4 a2 | c2 r a4( c) |
+  r1 a4\mp a | \repeat volta 2 { c2~ c4 a4 a2 | c2 r a4( c) |
   f2 e~ e4 d4 | d2 c g4( a) | bes2 g g4( a) |
   bes2 r g4( bes) | e4( d) c2 e | f r f,4\mf f |
   f'1 d4( bes) | c1 a4( f) | bes2 c d |
@@ -50,6 +53,8 @@ clarinetOne = \relative c'' {
 }
 
 clarinetTwo = \relative c' {
+  \set midiInstrument = #"clarinet"
+  \voiceTwo
   \clef treble
   \key f \major
   \time 3/2

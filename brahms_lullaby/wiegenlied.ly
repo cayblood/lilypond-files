@@ -34,7 +34,6 @@
 
 clarinetOne = \relative c'' {
   \set midiInstrument = #"clarinet"
-  \voiceOne
   \tempo \markup { \italic Gently } 2 = 60
   \clef treble
   \key f \major
@@ -54,7 +53,6 @@ clarinetOne = \relative c'' {
 
 clarinetTwo = \relative c' {
   \set midiInstrument = #"clarinet"
-  \voiceTwo
   \clef treble
   \key f \major
   \time 3/2
